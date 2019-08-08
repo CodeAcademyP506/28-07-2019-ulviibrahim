@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <canvas id="mycanvas" width="600px" height="500px"></canvas>
+
+<div class="absolute">
+   <div class="audios">
+        <div style="    top: -118px; left: 73px; position: absolute;" class="srctext"></div>
+    <audio id="myaudio" width="200px" style="outline-style: none"  class="active" src="03- CANSEVER-  YAR YAR.mp3"> </audio>
+    <audio src="02.Ilyas Yalcintas ft Elif Kaya - Ne Guzel Guldun.MP3"></audio>
+   
+    <audio src="05.Ziynet Sali ft Rubato - Belalim.MP3"></audio>
+    <audio src="03- CANSEVER-  YAR YAR.mp3"></audio>
+    
+    <audio src="07.Ece Seckin - Vur Yuregim.MP3"></audio>
+    <audio src="08.Emre Aydin - Kal Benim icin.MP3"></audio>
+    <audio src="09 damla-kendisi-lazim-2018-fit_az-tam-loqosuz.mp3"></audio>
+   </div>
+
+  
+    <a href='#' id='play'> <i class='fas fa-play'></i></a>
+<a href="#" id="next"><i class="fas fa-forward"></i></a>
+
+<a href="#" id="prev"><i class="fas fa-backward"></i></a>
+
+<input type="range" name="current" min="0" max="100" value="0" id="current">
+<input type="range" name="volume"  min="0" max="100" value="100" id="volume">
+</div>
+
+
+
+<!-- <input id="settime" min="0" max="100" type="range"> -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
